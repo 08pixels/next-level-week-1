@@ -1,0 +1,20 @@
+npm instal @types/typecript
+npm install ts-node -D
+npm install typescript -D
+npx tsc --init //para criar o arquivo de configurações do typescript
+npx ts-node src/server.ts
+
+npm install ts-node-dev -D
+
+npx ts-node-dev src/server.ts
+npx ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts
+
+npm run dev
+
+npx create-react-app web --template=typescript
+
+npm start 
+
+npx knex --knexfile knexfile.ts migrate:latest
+
+npx knex --knexfile knexfile.ts seed:run
