@@ -31,6 +31,10 @@ npm install @types/react-router-dom
 npm install leaflet react-leaflet
 
 npm install axios
+
+// validação de dados
+npm install @types/hapi__joi -D
+
 ```
 
 
